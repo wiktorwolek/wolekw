@@ -59,7 +59,7 @@ namespace TestProject1
         public void TestMethod_MoreThan1000()
         {
             var s = new StringCalculator();
-            Assert.AreEqual(11, s.Calculate("1000\n10\n1"));
+            Assert.AreEqual(12, s.Calculate("1000\n10\n1"));
         }
         [TestMethod]
         public void TestMethod_CustomSplit()
